@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+
+    <script src="./index.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 
@@ -46,14 +49,18 @@
                 <img class="arrow" src="./assets/arrow-right.svg" alt="right arrow">
             </a>
             <div class="size">
-                <button class="sizeButton">S</button>
-                <button class="sizeButton">M</button>
-                <button class="sizeButton">L</button>
+                <button class="sizeButton" onclick="color()" id="S">S</button>
+                <button class="sizeButton" onclick="color()" id="M">M</button>
+                <button class="sizeButton" onclick="color()" id="L">L</button>
             </div>
             <div class="counter">
-                <img class="sinal" src="./assets/dash.svg">
-                <input>
-                <img class="sinal" src="./assets/plus.svg">
+                <button onclick="sub()">
+                    <img class="sinal" src="./assets/dash.svg">
+                </button>
+                <input value="1">
+                <button onclick="add()">
+                    <img class="sinal" src="./assets/plus.svg">
+                </button>
             </div>
             <button class="toCart">
                 ADD TO CART

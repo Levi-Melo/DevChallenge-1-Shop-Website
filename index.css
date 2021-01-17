@@ -8,6 +8,10 @@ a{
     cursor: pointer;
     font-size: 11pt;
 }
+button{
+    cursor: pointer;
+
+}
 nav.menuBar{
     display: grid;
     grid-template-columns:6fr 1fr 1fr 1fr 1fr;
@@ -115,21 +119,37 @@ div.counter{
     width: 200px;
     height: 45px;
     background-color: white;
+    display: flex;
+}
+div.counter button{
+    border: none;
+    background-color: transparent;
 }
 div.counter img{
     width: 25px;
     justify-content: center;
-    margin-top: 11px;
-    margin-bottom: 0px;
+    margin-top: 5px;
 }
 input{
-    width: 137px;
+    width: 97px;
     margin: auto;
     border: none;
     align-items: center;
-    padding-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    padding: 10px;
+}
+input:focus{
+    outline: 0;
+}
+button:focus {
+    outline:0;
 }
 div.content a.selected{
     color: #e67e34;
     font-weight: bolder;
+}
+.sizeSelected{
+    border: solid 2px #e67e34;
 }
