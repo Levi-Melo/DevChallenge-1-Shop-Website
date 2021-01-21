@@ -25,29 +25,13 @@ let controles = [
 
 
 function color(objeto) {
-
-    let elemento = controles.find(e => e.idElement == objeto.id);
-
-    this.alterColor(elemento);
-
     controles.forEach(e => {
         if (e.idElement != objeto.id) {
-            e.isSelected = 0;
-            alterColor(e);
+            gray(e);
             return;
         }
-        e.isSelected = 1;
-        alterColor(e);
+        orange(e);
     });
-}
-
-
-function alterColor(elemento) {
-    if (elemento.isSelected == 0) {
-        gray(elemento);
-        return;
-    }
-    orange(elemento);
 }
 
 function orange(element) {
