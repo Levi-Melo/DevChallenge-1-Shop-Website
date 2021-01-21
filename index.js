@@ -8,6 +8,17 @@ function add() {
 
 }
 
+function orange(element) {
+    document.getElementById(element.idElement).style.border = 'solid 2px #e67e34';
+    element.isSelected = 1;
+}
+
+function gray(element) {
+    document.getElementById(element.idElement).style.border = 'solid 2px lightgray';
+    element.isSelected = 0;
+
+}
+
 let controles = [
     {
         idElement: "S",
@@ -30,17 +41,7 @@ function color(objeto) {
             gray(e);
             return;
         }
-        orange(e);
     });
-}
-
-function orange(element) {
-    document.getElementById(element.idElement).style.border = 'solid 2px #e67e34';
-    element.isSelected = 1;
-}
-
-function gray(element) {
-    document.getElementById(element.idElement).style.border = 'solid 2px lightgray';
-    element.isSelected = 0;
-
+    let elemento = controles.find(e => e.idElement == objeto.id);
+    orange(elemento);
 }
