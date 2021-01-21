@@ -37,10 +37,8 @@ let controles = [
 
 function color(objeto) {
     controles.forEach(e => {
-        if (e.idElement != objeto.id) {
-            gray(e);
-            return;
-        }
+        gray(e);
+        return;
     });
     let elemento = controles.find(e => e.idElement == objeto.id);
     orange(elemento);
