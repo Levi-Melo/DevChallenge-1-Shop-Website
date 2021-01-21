@@ -1,45 +1,28 @@
+const result = document.querySelector("input");
+
 function sub() {
-    let result = document.querySelector("input");
     result.value--;
 }
 function add() {
-    let result = document.querySelector("input");
     result.value++;
-
 }
 
-function orange(element) {
-    document.getElementById(element.idElement).style.border = 'solid 2px #e67e34';
-    element.isSelected = 1;
-}
+let controles = ['S', 'M', 'L']
 
-function gray(element) {
-    document.getElementById(element.idElement).style.border = 'solid 2px lightgray';
-    element.isSelected = 0;
+const standardBorder = 'lightgray'
 
-}
-
-let controles = [
-    {
-        idElement: "S",
-        isSelected: 1,
-    },
-    {
-        idElement: "M",
-        isSelected: 1,
-    },
-    {
-        idElement: "L",
-        isSelected: 1,
-    }
-]
-
+const selectedBorder = '#e67e34'
 
 function color(objeto) {
     controles.forEach(e => {
-        gray(e);
+        setBorder(e, standardBorder)
         return;
     });
-    let elemento = controles.find(e => e.idElement == objeto.id);
-    orange(elemento);
+    let elemento = controles.find(e => e == objeto.id);
+    setBorder(elemento, selectedBorder)
 }
+
+function setBorder(idElement, borderColor) {
+    document.getElementById(idElement).style.border = `solid 2px ${borderColor}`;
+}
+
