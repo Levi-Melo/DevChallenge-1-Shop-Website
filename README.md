@@ -1,6 +1,6 @@
-# DevChallenge-1-Shop-Website
-## Creating a shop website page front-end
-Desafio aceito por <a href="https://www.linkedin.com/in/levi-melo-dos-santos-5277441a1//">Levi Melo dos Santos</a>
+# DevChallenge-1-Shopping-Website
+## Creating a Shopping Website page front-end
+Challenge accepted by <a href="https://www.linkedin.com/in/levi-melo-dos-santos-5277441a1//">Levi Melo dos Santos</a>
 
 <br />
 <p align="center">
@@ -11,10 +11,10 @@ Desafio aceito por <a href="https://www.linkedin.com/in/levi-melo-dos-santos-527
   <h3 align="center">Shop Website by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
  <br />
   <p align="center">
-    Site de loja de roupas e sapatos
+    Clothing and shoes shopping website
        <br />
     <br />
-    <a href="https://github.com/devchallenge-io/shop-website">Desafio</a>
+    <a href="https://github.com/devchallenge-io/shop-website">Challenge</a>
     ·
     <a href="https://devchallenge.now.sh/">DevChallenge</a>
   </p>
@@ -23,26 +23,24 @@ Desafio aceito por <a href="https://www.linkedin.com/in/levi-melo-dos-santos-527
 ## Índice
 
 * [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs-usadas)
+* [Challenge](#Challenge)
+* [Techs](#Used-Techs)
 
 # Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
+<a href="https://devchallenge.now.sh/"> DevChallenge</a> allows you to evolve your skills as a programmer! Join our
+<a href="https://discord.gg/yvYXhGj">community</a> o/
 
-# Desafio
-Seu desafio é criar um site de uma loja com um carrinho de compras! O modelo final está disponível na pasta "design"
+# Challenge
+Your challenge is to create a shopping website with a shopping cart!
 
 ## Requisitos:
-- Sua página deverá conter um menu à esquerda com as seções da loja (women, men, shoes e brand)<br>
-- Sua página deverá possuir um carrinho, onde o usuário poderá selecionar o tamaho do produto  e adicionar mais unidades<br>
+- Your page should contain a menu on the left with shopping sections(women, men, shoes e brand)<br>
+- Your page should contain a cart where the user can select the size of product and add more items<br>
 
-### Requisitos bônus
-- Você poderá adicionar um menu drop down para aparecer quando o usuário clicar no ícone superior direito.
-- Você poderá adicionar um slider, para quando o usuário clicar em "prev", a tela rolar para outro produto disponível
 
-# Techs usadas
+# Used Techs
 - HTML, CSS e JavaScript
 
 
-Desafio criado por  <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
+Challenge create by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
 
